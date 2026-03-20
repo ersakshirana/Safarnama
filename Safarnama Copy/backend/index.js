@@ -14,7 +14,7 @@ const { error } = require("console");
 
 const PORT = process.env.PORT || 8000;
 const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}`;
-const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/safarnama";
+const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/traveldiary";
 const ACCESS_TOKEN_SECRET = process.env.ACCESS_TOKEN_SECRET || "replace-me-with-a-secure-secret";
 
 if (!process.env.MONGO_URI) {

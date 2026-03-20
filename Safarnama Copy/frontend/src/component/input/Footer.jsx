@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <Link to="/dashboard" onClick={scrollToTop} className="inline-block">
               <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-cyan-200 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
-                Safarnama
+                TravelDiary
               </h2>
             </Link>
             <p className="text-slate-300 mb-6 leading-relaxed max-w-md">
@@ -105,8 +105,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-slate-300">
                 <HiOutlineMail className="text-cyan-400 text-xl" />
-                <a href="mailto:hello@safarnama.com" className="hover:text-cyan-400 transition-colors">
-                  hello@safarnama.com
+                <a href="mailto:hello@traveldiary.com" className="hover:text-cyan-400 transition-colors">
+                  hello@traveldiary.com
                 </a>
               </li>
               <li className="text-slate-300">
@@ -124,7 +124,7 @@ const Footer = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-400 text-sm">
-              © {currentYear} Safarnama. All rights reserved.
+              © {currentYear} TravelDiary. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm text-slate-400">
               <span className="cursor-not-allowed opacity-50">Privacy Policy</span>

@@ -14,7 +14,7 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
   cloudinary: cloudinary,
   params: {
-    folder: "safarnama-stories",
+    folder: "travel-diary-stories",
     allowed_formats: ["jpg", "png", "jpeg", "gif", "webp"],
     transformation: [{ width: 1000, height: 1000, crop: "limit" }],
   },

@@ -1,4 +1,4 @@
-import axiosinstance from "./axiosInstance";
+import axiosinstance from "./axiosinstance";
 
 const UploadImage = async (imageFile) => {
   const formdata = new FormData();

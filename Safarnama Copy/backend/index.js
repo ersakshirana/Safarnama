@@ -415,7 +415,11 @@ app.get("/travel-stroies/filter", authToken, async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running at ${BASE_URL} (port ${PORT})`);
-});
+// Only start server if not in Vercel serverless environment
+if (process.env.VERCEL === undefined) {
+  app.listen(PORT, () => {
+    console.log(`Server running at ${BASE_URL} (port ${PORT})`);
+  });
+}
+
 module.exports = app;
